@@ -27,7 +27,7 @@
                 <ul class="nav navbar-nav navbar-right">
                   <li><a href="#">Viaja</a></li>
                   <li><a href="#">Conduce</a></li>
-                  <li><a href="#"  >Iniciar Sesion</a></li>
+                  <li><a href="#" id="iniciarSesion" type="button"  data-toggle="modal" data-target="#myModal">Iniciar Sesion</a></li>
                 </ul>
               </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -102,16 +102,67 @@
           <div class="col-sm-12 bordeMapa">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25895663.485556163!2d-95.665!3d37.599999999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited+States!5e0!3m2!1sen!2sus!4v1428092793529"
              frameborder="0" style="border:0"></iframe>
-
           </div>
-
         </div>
-
-
       </section>
+      <section >
+        <div  id="fondo">
+          <div  id="modal">
+            <div  id="botonCerrar"></div>
+            <img  id="_imagen" alt="">
+          </div>
+        </div>
+      </section>
+      <footer id="footer" class="row">
+        <div class="centrador">
+          <div class="col-sm-12 col-md-12">
+            <img src="img/logoBlanco.png" alt="">
+            <hr>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              logos  de las redes
+            </div>
+
+            <div class="col-md-3">
+              <ul>
+                <li>Viaja</li>
+                <li>Conduce</li>
+                <li>Ciudades</li>
+                <li>Ciudades</li>
+                <li>Entregas</li>
+                <li>Como funciona?</li>
+                <li>Paises</li>
+                <li>Seguridad</li>
+              </ul>
+            </div>
+            <div class="col-md-3 ocultar">
+              <ul>
+                <li>Oportunidades</li>
+                <li>Nuestra Historia</li>
+                <li>API de LabCar</li>
+                <li>Eventos</li>
+                <li>Desarrolladores</li>
+                <li>Servicios</li>
+                <li>Laboratoria</li>
+                <li>Coders</li>
+              </ul>
+            </div>
+            <div class="col-md-3 logos">
+              <img src="img/appstore.png" alt="">
+              <img src="img/enBadgeWebGeneric.png" alt="">
+            </div>
+            <div class="col-md-12">
+              <hr>
+              <p>© 2017 LabCar technologies Inc</p>
+            </div>
+          </div>
+        </div>
+      </footer>
 
     </div><!--  termina el contenedor-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>

@@ -112,6 +112,20 @@ form input{
   margin: 5%;
   width: auto;
 }
+footer{
+  background: black;
+}
+footer li{
+  list-style: none;
+}
+footer{
+  /*letter-spacing: 2px;*/
+  line-height:200%;
+  color: #DDD;
+}
+.centrador{
+  margin: 7%;
+}
 
 @media (max-width:760px){
   .formulario{
@@ -126,5 +140,8 @@ form input{
   .divformulario{
     left: 0;
     width: auto;
+  }
+  .ocultar{
+    display: none;
   }
 }
