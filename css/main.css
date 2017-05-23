@@ -77,6 +77,7 @@ body, html{
 
 .divformulario button{
   padding: 2%;
+  width: 50%;
   border-radius: 5px;
   background-color: rgba(247, 182, 23,1);
   /*border:none;*/
