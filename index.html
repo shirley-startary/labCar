@@ -27,7 +27,7 @@
                 <ul class="nav navbar-nav navbar-right">
                   <li><a href="#">Viaja</a></li>
                   <li><a href="#">Conduce</a></li>
-                  <li><a href="#" id="iniciarSesion" type="button"  data-toggle="modal" data-target="#myModal">Iniciar Sesion</a></li>
+                  <li><a href="#" id="iniciarSesion" data-toggle="modal" data-target="#myModal">Iniciar Sesion</a></li>
                 </ul>
               </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -105,11 +105,22 @@
           </div>
         </div>
       </section>
-      <section >
-        <div  id="fondo">
-          <div  id="modal">
-            <div  id="botonCerrar"></div>
-            <img  id="_imagen" alt="">
+      <section id="modal">
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+              </div>
+              <div class="modal-body">
+                Me faltaron los datos.....
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
           </div>
         </div>
       </section>
