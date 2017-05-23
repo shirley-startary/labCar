@@ -83,6 +83,36 @@ body, html{
   /*border:none;*/
   border: rgb(247, 182, 23);
 }
+#mapa{
+  color: white;
+  width: auto;
+  height:auto;
+  background-color:rgb(247, 182, 23);
+}
+form h3{
+  margin-left: 5%;
+  padding: 2%;
+}
+form p{
+  margin-left: 5%;
+  padding: 2%;
+}
+form input{
+  background-color: rgba(247, 182, 23,1);
+  border: 1px solid white;
+}
+#mapa iframe{
+  margin: 1%;
+  width:400px;
+  height:400px;
+  text-align: center;
+}
+#mapa .bordeMapa{
+  border: 1px solid white;
+  margin: 5%;
+  width: auto;
+}
+
 @media (max-width:760px){
   .formulario{
     left: 20%;

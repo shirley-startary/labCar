@@ -10,17 +10,18 @@
   <body>
     <div class="container-fluid">
       <header class="row">
-        <nav class="navbar color-nav navbar-default navbar-fixed-top">
+        <nav class="navbar navbar-default navbar-fixed-top">
           <div >
             <div>
               <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-                <img src="img/logoForma.png" alt="">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                  <img src="img/logoForma.png" alt="">
+                </ul>
               </div>
               <div class="collapse navbar-collapse"  id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
@@ -68,8 +69,45 @@
           <h3>LabCar es una opción flexible para <br>alcanzar tus metas financieras</h3>
           <p></p>
           <button type="button" name="button">Conviertete en conductor</button>
+        </div>
+      </section>
+      <section id="mapa" class="row">
+        <div class="col-md-6 col-xs-12">
+          <div class="">
+            <form class="form-horizontal">
+              <h3>Tarifas</h3>
+              <p>Consulta las Tarifas aquí</p>
+              <div class="form-group">
+                <label for="puntosalida" class="col-sm-2 control-label"><img src="img/shape.png" alt=""></label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" placeholder="Ingrese su punto de partida">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="destino" class="col-sm-2 control-label"><img src="img/shape2.png" alt=""></label>
+                <div class="col-sm-2 col-md-9">
+                  <input type="text" class="form-control" placeholder="ingrese su destino">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                  <button type="button" class="btn btn-default">¡TRAZAR RUTA!</button>
+                </div>
+              </div>
+            </form>
+
+          </div>
+        </div>
+        <div class="col-md-6 col-xs-12 ">
+          <div class="col-sm-12 bordeMapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25895663.485556163!2d-95.665!3d37.599999999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited+States!5e0!3m2!1sen!2sus!4v1428092793529"
+             frameborder="0" style="border:0"></iframe>
+
+          </div>
 
         </div>
+
+
       </section>
 
     </div><!--  termina el contenedor-->
